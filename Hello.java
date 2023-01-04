@@ -4,5 +4,8 @@ public class Hello
   {
     System.out.println("Hello World hiiii");
   }
-  System.out.println("Hello And Welcome")
+  public void s1()
+  {
+    System.out.println("hii");
+  }
 }
