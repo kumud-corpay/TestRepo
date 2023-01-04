@@ -2,7 +2,12 @@ public class Hello
 {
   public static void main(String[] agrs)
   {
-    System.out.println("Hello World hiiii");
+   Hello h = new Hello();
+    int c= h.add(2,5);
+    System.out.println(c);
   }
-  System.out.println("Hello And Welcome")
+  public int add(int a, int b)
+  {
+    return (a+b);
+  }
 }
